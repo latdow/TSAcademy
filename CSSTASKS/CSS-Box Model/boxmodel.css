@@ -1,0 +1,49 @@
+.lateef {
+  width: 300px;
+  padding: 30px;
+  border: 10px solid;
+  box-sizing: border-box;
+  margin-bottom: 50px;
+}
+.ayanfe {
+  width: 300px;
+  padding: 30px;
+  border: 10px solid;
+  box-sizing: content-box;
+  margin-top: 20px;
+}
+.parent {
+  display: flex;
+}
+.one {
+  display: inline;
+  width: 200px;
+  background-color: red;
+}
+.two {
+  display: inline-block;
+  width: 200px;
+  background-color: blue;
+}
+.three {
+  display: block;
+  width: 200px;
+  background-color: green;
+}
+.overflow {
+  height: 80px;
+  width: 200px;
+  overflow: auto;
+  border: 1px solid blueviolet;
+  padding: 10px;
+  /* max-width: 60ch; */
+}
+.profile-card {
+  width: 200px;
+  box-sizing: border-box;
+  padding: 20px;
+  border-radius: 12px;
+  border: 2px dotted greenyellow;
+  text-align: center;
+  margin: 0 auto;
+}

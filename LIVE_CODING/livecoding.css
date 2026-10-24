@@ -1,0 +1,29 @@
+/* reset */
+/* my css */
+:root {
+  --purple: #202641;
+  --grey: #837d88;
+  --white: white;
+  --black: #121212;
+}
+html {
+  background-color: var(--purple);
+}
+a {
+  text-decoration: none;
+  /* text-transform: uppercase; */
+}
+header {
+  display: flex;
+  justify-content: space-between;
+  background-color: var(--white);
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+header,
+section {
+  padding-inline: 10vw;
+}
+.links a {
+  text-transform: uppercase;
+}

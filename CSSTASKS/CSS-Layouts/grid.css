@@ -1,0 +1,10 @@
+.container {
+  display: grid;
+  width: min-content;
+  grid-template-columns: 5em 100px 30%;
+  grid-template-rows: 200px auto;
+  gap: 10px;
+  background-color: blanchedalmond;
+  padding: 1em;
+  max-width: 30rem;
+}
